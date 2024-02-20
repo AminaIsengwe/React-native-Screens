@@ -19,12 +19,15 @@ export default function LogIn() {
 style={{width:"100%",backgroundColor:'#fff'}}
 label='Email'
 mode='offline'
+underlineColor='#9E9E7E'
+theme={{roundness:25}}
 left={<TextInput.Icon size={15} icon={"email-outline"} color='#ed8aed' style={{backgroundColor:"#f5d0f5"}}></TextInput.Icon>}
 />
 <TextInput
-style={{width:"100%",backgroundColor:'#fff'}}
+style={{width:"100%",backgroundColor:'#fff',borderRadius:25}}
 label='Password'
 mode='offline'
+underlineColor='#fff'
 secureTextEntry
 left={<TextInput.Icon size={15} icon={"lock-outline"} color='#1E88E5' style={{backgroundColor:"#d0d8f5"}}></TextInput.Icon>}
 />

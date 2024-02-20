@@ -5,13 +5,15 @@ import Shipping from './screen/Shipping';
 import PhotoCollage from './screen/photos';
 import LogIn from './screen/login';
 import Register from './screen/register';
+import Home from './screen/home';
+import FashionApp from './screen/fashion';
 
 export default function App() {
   return (
 /* <Shipping>
 </Shipping> */
 
-<Register/>
+<FashionApp/>
 
 
 /* <SignIn>

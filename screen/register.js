@@ -16,21 +16,27 @@ export default function Register() {
 
 <View style={styles.text_container}> 
 <TextInput
-style={{width:"100%",backgroundColor:'#fff'}}
+style={{width:"100%",backgroundColor:'#fff',borderRadius:25}}
 label='Username'
 mode='offline'
-left={<TextInput.Icon size={15} icon={"head-outline"} color='#FFECB3' style={{backgroundColor:"#FFF3E0"}}></TextInput.Icon>}
+color='#fff'
+underlineColor='#fff'
+theme={{roundness:25}}
+left={<TextInput.Icon size={15} icon={"account-outline"} color='#F3BC6C' style={{backgroundColor:"#FFF3E0"}}></TextInput.Icon>}
 />
 <TextInput
-style={{width:"100%",backgroundColor:'#fff'}}
+style={{width:"100%",backgroundColor:'#fff',borderRadius:25}}
 label='Email'
 mode='offline'
+underlineColor='#fff'
 left={<TextInput.Icon size={15} icon={"email-outline"} color='#C8E6C9' style={{backgroundColor:"#F1F8E9"}}></TextInput.Icon>}
 />
 <TextInput
-style={{width:"100%",backgroundColor:'#fff'}}
+style={{width:"100%",backgroundColor:'#fff',borderRadius:25}}
 label='Password'
 mode='offline'
+underlineColor='#fff'
+theme={{roundness:25}}
 secureTextEntry
 left={<TextInput.Icon size={15} icon={"lock-outline"} color='#B0BEC5' style={{backgroundColor:"#ECEFF1"}}></TextInput.Icon>}
 />
